@@ -1,7 +1,9 @@
 import Head from 'next/head';
+import Feature from '../components/Features/Feature';
 import Header from '../components/Header';
 import Hero from '../components/Hero/Hero';
 import Property from '../components/Property/Property';
+import Testimonial from '../components/Testimonial/Testimonial';
 
 export default function Home() {
   return (
@@ -24,9 +26,13 @@ export default function Home() {
         <div className='max-w-7xl mx-auto'>
           <Property />
         </div>
+        <div className='max-w-7xl mx-auto'>
+          <Feature />
+        </div>
+        <div className='max-w-7xl mx-auto py-10'>
+          <Testimonial />
+        </div>
       </main>
-
-      <footer></footer>
     </div>
   );
 }

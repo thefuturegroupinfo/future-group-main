@@ -12,10 +12,22 @@ function Property() {
           The future group offers wide range of properties
         </p>
       </div>
-      <div className=' flex justify-center '>
-        <PropertyCard />
-        <PropertyCard />
-        <PropertyCard />
+      <div className=' flex justify-center gap-5 '>
+        <PropertyCard
+          image='/static/images/one.png'
+          title='Multi-family'
+          text='Housing accommodations that are designed principally for residential use, and consist of not less than 5 rental units on 1 site.'
+        />
+        <PropertyCard
+          image='/static/images/two.png'
+          title='Senior Living'
+          text='A retirement community is a residential neighborhood or a housing development intended for senior citizens.'
+        />
+        <PropertyCard
+          image='/static/images/three.png'
+          title='Commercial'
+          text='It refers to properties utilized only for commercial or revenue-generating activities.'
+        />
       </div>
     </>
   );

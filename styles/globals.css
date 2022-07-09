@@ -7,6 +7,9 @@
   .text-primary {
     @apply text-[#AD791C];
   }
+  .section-title {
+    @apply text-4xl  font-roboto text-primary font-bold;
+  }
 }
 
 .main-hero-bg {

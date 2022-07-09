@@ -15,8 +15,8 @@ function Hero() {
           financially independent.
         </p>
         <p className='pt-2'>
-          While you enjoy living the life you've always wanted, we'll take care
-          of the job.
+          {`While you enjoy living the life you've always wanted, we'll take care
+          of the job.`}
         </p>
         <button className='bg-[#AD791C] py-2 px-2 rounded-md shadow-xl mt-5'>
           More Details

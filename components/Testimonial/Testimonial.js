@@ -10,7 +10,7 @@ function Testimonial() {
       <div className='text-center'>
         We have been working with clients around the Globe
       </div>
-      <div className='flex justify-center flex-col md:flex-row'>
+      <div className='flex justify-center flex-col md:flex-row items-center'>
         <TestimonialCard
           title='Incredible Experience'
           text='Working with this group is always a pleasure, such a great resource for us. '

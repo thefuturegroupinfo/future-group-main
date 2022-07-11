@@ -3,7 +3,7 @@ import React from 'react';
 
 function PropertyCard({ image, title, text }) {
   return (
-    <div className='w-[400px] h-[550px]   '>
+    <div className='md:w-[400px] h-[550px]  w-[350px]   '>
       <div className='relative h-full rounded-md overflow-hidden '>
         <Image
           src={image}

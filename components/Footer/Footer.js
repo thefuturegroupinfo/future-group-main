@@ -7,24 +7,26 @@ function Footer() {
     <>
       <div className='max-w-7xl mx-auto relative  overflow-hidden flex flex-col md:flex-row  justify-between items-center h-full w-full '>
         <div className='w-full hidden md:block'>as</div>
-        <div className='md:w-1/3 space-y-3 text-white '>
-          <div className='capitalize text-3xl text-roboto font-bold text-center md:text-left'>
-            Don’t miss a thing!
-          </div>
-          <p>
-            Subscribe with Email and loads of interesting news will be sent to
-            you.
-          </p>
+        <div className='md:w-1/2 space-y-3 text-white  flex flex-col h-full items-center '>
+          <div className='flex flex-col items-center justify-center h-full  space-y-5'>
+            <div className='capitalize text-3xl text-roboto font-bold text-center md:text-left'>
+              Don’t miss a thing!
+            </div>
+            <p className='mx-10'>
+              Subscribe with Email and loads of interesting news will be sent to
+              you.
+            </p>
 
-          <div className='flex items-center h-10 '>
-            <input
-              type='text'
-              className='py-2 rounded-l-lg px-5'
-              placeholder='Your Email Here '
-            />
-            <button className='py-2 bg-black text-white px-5 rounded-r-lg '>
-              Subscribe
-            </button>
+            <div className='flex items-center h-10 mx-5 md:mx-0  '>
+              <input
+                type='text'
+                className='py-2 rounded-l-lg px-5 w-full text-black'
+                placeholder='Your Email Here '
+              />
+              <button className='py-2 bg-black text-white px-5 rounded-r-lg '>
+                Subscribe
+              </button>
+            </div>
           </div>
         </div>
       </div>

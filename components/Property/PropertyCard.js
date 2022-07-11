@@ -9,7 +9,7 @@ function PropertyCard({ image, title, text }) {
           src={image}
           layout='fill'
           alt='family'
-          className='bg-opacity-10 brightness-50'
+          className='bg-opacity-10 brightness-50 object-center object-cover'
         />
         <div className='absolute w-full  z-10 text-white flex flex-col justify-start h-full '>
           <div className='h-full'>
@@ -19,7 +19,7 @@ function PropertyCard({ image, title, text }) {
             <div className='mx-10 py-5 text-center'>{text}</div>
           </div>
           <div className='z-10     rounded-full text-white self-center justify-end  mb-10'>
-            <button className='flex  items-center justify-center bg-[#AD791C] h-14 w-14 rounded-full cursor-pointer '>
+            <button className='flex  items-center justify-center bg-[#AD791C] h-14 w-14 rounded-full cursor-pointer us'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 className='h-6 w-6'

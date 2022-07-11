@@ -14,17 +14,18 @@ function Property() {
       </div>
       <div className=' flex flex-col md:flex-row  justify-center gap-5 items-center '>
         <PropertyCard
-          image='/static/images/one.png'
+          image='/static/images/one.jpg'
           title='Multi-family'
           text='Housing accommodations that are designed principally for residential use, and consist of not less than 5 rental units on 1 site.'
         />
         <PropertyCard
-          image='/static/images/two.png'
+          image='/static/images/two.jpg'
           title='Senior Living'
           text='A retirement community is a residential neighborhood or a housing development intended for senior citizens.'
         />
         <PropertyCard
-          image='/static/images/three.png'
+          image='/static/images/three.png
+          '
           title='Commercial'
           text='It refers to properties utilized only for commercial or revenue-generating activities.'
         />

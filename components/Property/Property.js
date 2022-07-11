@@ -12,7 +12,7 @@ function Property() {
           The future group offers wide range of properties
         </p>
       </div>
-      <div className=' flex justify-center gap-5 '>
+      <div className=' flex flex-col md:flex-row  justify-center gap-5 '>
         <PropertyCard
           image='/static/images/one.png'
           title='Multi-family'

@@ -4,10 +4,10 @@ import FeatureCard from './FeatureCard';
 
 function Feature() {
   return (
-    <div className='py-20  '>
-      <div className='section-title'>Out Features</div>
-      <div className='flex'>
-        <div className='w-1/2 flex flex-col justify-center'>
+    <div className='py-20  text-center md:text-left '>
+      <div className='section-title py-5 md:py-0'>Out Features</div>
+      <div className='flex flex-col-reverse md:flex-row '>
+        <div className='md:w-1/2 w-full flex flex-col justify-center '>
           <FeatureCard
             title='Experienced Assistance'
             text="Our team's method involves finding assets with upside potential that are situated in key areas supporting development with strong growth fundamentals"
@@ -21,15 +21,16 @@ function Feature() {
             text="Our investment team carefully examines the business plan & strategy to identify all of the project's vulnerabilities."
           />
         </div>
-        <div className='w-1/2'>
-          <div className=' flex  items-center justify-end'>
-            <Image
-              src='/static/images/features.jpg'
-              height='410px'
-              width='410px'
-              alt='features'
-              className='rounded-full object-cover'
-            />
+        <div className='md:w-1/2'>
+          <div className=' flex  items-center md:justify-end w-full justify-center'>
+            <div className='relative w-64 h-64 md:w-96 md:h-96 flex  justify-center items-center'>
+              <Image
+                src='/static/images/features.jpg'
+                layout='fill'
+                alt='features'
+                className='rounded-full object-cover'
+              />
+            </div>
           </div>
         </div>
       </div>

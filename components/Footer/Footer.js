@@ -5,10 +5,10 @@ import React from 'react';
 function Footer() {
   return (
     <>
-      <div className='max-w-7xl mx-auto relative  overflow-hidden flex  justify-between items-center h-full w-full'>
-        <div className='w-full'>as</div>
-        <div className='w-1/3 space-y-3 text-white'>
-          <div className='capitalize text-3xl text-roboto font-bold'>
+      <div className='max-w-7xl mx-auto relative  overflow-hidden flex flex-col md:flex-row  justify-between items-center h-full w-full '>
+        <div className='w-full hidden md:block'>as</div>
+        <div className='md:w-1/3 space-y-3 text-white '>
+          <div className='capitalize text-3xl text-roboto font-bold text-center md:text-left'>
             Don’t miss a thing!
           </div>
           <p>
@@ -16,7 +16,7 @@ function Footer() {
             you.
           </p>
 
-          <div className='flex items-center h-full  '>
+          <div className='flex items-center h-10 '>
             <input
               type='text'
               className='py-2 rounded-l-lg px-5'
@@ -28,7 +28,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className='max-w-7xl mx-auto flex justify-between py-10'>
+      <div className='max-w-7xl mx-auto flex flex-col md:flex-row justify-between py-10 px-5'>
         <div>
           <Image
             src='/static/images/logo.png'
@@ -36,7 +36,7 @@ function Footer() {
             height='62px'
             width='180px'
           />
-          <div className='w-72 pt-5'>
+          <div className='md:w-72 w-full pt-5 text-left'>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum
             blanditiis quo esse vel quia, illo, dolorem quas neque fuga
             laboriosam voluptatibus quos minima a. Dolor, rem autem voluptatum

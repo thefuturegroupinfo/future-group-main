@@ -27,16 +27,18 @@ function privacyPolicy() {
         carefully as it will help you understand what we do with the information
         that we collect.
       </div>
-      TABLE OF CONTENTS 1. WHAT INFORMATION DO WE COLLECT? 2. HOW DO WE USE YOUR
-      INFORMATION? 3. WILL YOUR INFORMATION BE SHARED WITH ANYONE? 4. DO WE USE
-      COOKIES AND OTHER TRACKING TECHNOLOGIES? 5. DO WE USE GOOGLE MAPS PLATFORM
-      APIS? 6. IS YOUR INFORMATION TRANSFERRED INTERNATIONALLY? 7. HOW LONG DO
-      WE KEEP YOUR INFORMATION? 8. HOW DO WE KEEP YOUR INFORMATION SAFE? 9. DO
-      WE COLLECT INFORMATION FROM MINORS? 10. WHAT ARE YOUR PRIVACY RIGHTS?
-      11.CONTROLS FOR DO-NOT-TRACK FEATURES 12. DO CALIFORNIA RESIDENTS HAVE
-      SPECIFIC PRIVACY RIGHTS? 13. DO WE MAKE UPDATES TO THIS NOTICE? 14. HOW
-      CAN YOU CONTACT US ABOUT THIS NOTICE? 15. HOW CAN YOU REVIEW, UPDATE OR
-      DELETE THE DATA WE COLLECT FROM YOU?
+      TABLE OF CONTENTS <br />
+      1. WHAT INFORMATION DO WE COLLECT? <br /> 2. HOW DO WE USE YOUR
+      INFORMATION? <br /> 3. WILL YOUR INFORMATION BE SHARED WITH ANYONE? <br />{' '}
+      <br /> 4. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES? <br /> 5. DO
+      WE USE GOOGLE MAPS PLATFORM APIS? <br /> 6. IS YOUR INFORMATION
+      TRANSFERRED INTERNATIONALLY? 7. <br /> HOW LONG DO WE KEEP YOUR
+      INFORMATION? 8. HOW DO WE KEEP YOUR INFORMATION SAFE? <br /> 9. DO WE
+      COLLECT INFORMATION FROM MINORS? <br /> 10. WHAT ARE YOUR PRIVACY RIGHTS?
+      <br /> 11.CONTROLS FOR DO-NOT-TRACK FEATURES <br /> 12. DO CALIFORNIA
+      RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS? <br /> 13. DO WE MAKE UPDATES TO
+      THIS NOTICE? <br /> 14. HOW CAN YOU CONTACT US ABOUT THIS NOTICE? <br />{' '}
+      15. HOW CAN YOU REVIEW, UPDATE OR DELETE THE DATA WE COLLECT FROM YOU?
       <div></div>
       {`1. WHAT INFORMATION DO WE COLLECT?
       Information automatically collected In Short: Some information — such as
@@ -188,7 +190,7 @@ function privacyPolicy() {
         with this privacy notice and applicable law.`}
       </div>
       <div>
-        7. HOW LONG DO WE KEEP YOUR INFORMATION? In Short: We keep your
+        {`        7. HOW LONG DO WE KEEP YOUR INFORMATION? In Short: We keep your
         information for as long as necessary to fulfill the purposes outlined in
         this privacy notice unless otherwise required by law. We will only keep
         your personal information for as long as it is necessary for the
@@ -201,10 +203,10 @@ function privacyPolicy() {
         possible (for example, because your personal information has been stored
         in backup archives), then we will securely store your personal
         information and isolate it from any further processing until deletion is
-        possible.
+        possible.`}
       </div>
       <div>
-        8. HOW DO WE KEEP YOUR INFORMATION SAFE? In Short: We aim to protect
+        {`  8. HOW DO WE KEEP YOUR INFORMATION SAFE? In Short: We aim to protect
         your personal information through a system of organizational and
         technical security measures. We have implemented appropriate technical
         and organizational security measures designed to protect the security of
@@ -217,10 +219,10 @@ function privacyPolicy() {
         information. Although we will do our best to protect your personal
         information, transmission of personal information to and from our
         website is at your own risk. You should only access the Website within a
-        secure environment.
+        secure environment.`}
       </div>
       <div>
-        9. DO WE COLLECT INFORMATION FROM MINORS? In Short: We do not knowingly
+        {`  9. DO WE COLLECT INFORMATION FROM MINORS? In Short: We do not knowingly
         collect data from or market to children under 18 years of age. We do not
         knowingly solicit data from or market to children under 18 years of age.
         By using the Website, you represent that you are at least 18 or that you
@@ -230,10 +232,10 @@ function privacyPolicy() {
         deactivate the account and take reasonable measures to promptly delete
         such data from our records. If you become aware of any data, we may have
         collected from children under age 18, please contact us at
-        thefuturegroupinfo@gmail.com.
+        thefuturegroupinfo@gmail.com.`}
       </div>
       <div>
-        10. WHAT ARE YOUR PRIVACY RIGHTS? In Short: You may review, change, or
+        {`  10. WHAT ARE YOUR PRIVACY RIGHTS? In Short: You may review, change, or
         terminate your account at any time. If you are a resident in the
         European Economic Area and you believe we are unlawfully processing your
         personal information, you also have the right to complain to your local
@@ -248,10 +250,10 @@ function privacyPolicy() {
         and to reject cookies. If you choose to remove cookies or reject
         cookies, this could affect certain features or services of our website.
         To opt-out of interest-based advertising by advertisers on our website
-        visit http://www.aboutads.info/choices/.
+        visit http://www.aboutads.info/choices/.`}
       </div>
       <div>
-        11. CONTROLS FOR DO-NOT-TRACK FEATURES Most web browsers and some mobile
+        {`  11. CONTROLS FOR DO-NOT-TRACK FEATURES Most web browsers and some mobile
         operating systems and mobile applications include a Do-Not-Track ("DNT")
         feature or setting you can activate to signal your privacy preference
         not to have data about your online browsing activities monitored and
@@ -261,10 +263,10 @@ function privacyPolicy() {
         automatically communicates your choice not to be tracked online. If a
         standard for online tracking is adopted that we must follow in the
         future, we will inform you about that practice in a revised version of
-        this privacy notice.
+        this privacy notice.`}
       </div>
       <div>
-        12. DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS? In Short: Yes,
+        {`  12. DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS? In Short: Yes,
         if you are a resident of California, you are granted specific rights
         regarding access to your personal information. California Civil Code
         Section 1798.83, also known as the "Shine The Light" law, permits our
@@ -283,10 +285,10 @@ function privacyPolicy() {
         associated with your account and a statement that you reside in
         California. We will make sure the data is not publicly displayed on the
         Website, but please be aware that the data may not be completely or
-        comprehensively removed from all our systems (e.g., backups, etc.).
+        comprehensively removed from all our systems (e.g., backups, etc.).`}
       </div>
       <div>
-        13. DO WE MAKE UPDATES TO THIS NOTICE? In Short: Yes, we will update
+        {`  13. DO WE MAKE UPDATES TO THIS NOTICE? In Short: Yes, we will update
         this notice as necessary to stay compliant with relevant laws. We may
         update this privacy notice from time to time. The updated version will
         be indicated by an updated "Revised" date and the updated version will
@@ -294,22 +296,22 @@ function privacyPolicy() {
         this privacy notice, we may notify you either by prominently posting a
         notice of such changes or by directly sending you a notification. We
         encourage you to review this privacy notice frequently to be informed of
-        how we are protecting your information.
+        how we are protecting your information.`}
       </div>
       <div>
-        14. HOW CAN YOU CONTACT US ABOUT THIS NOTICE? If you have questions or
+        {`  14. HOW CAN YOU CONTACT US ABOUT THIS NOTICE? If you have questions or
         comments about this notice, you may email us at
         thefuturegroupinfo@gmail.com or by post to: The Future Group, 16135
-        Preston Road, Suite #106, Dallas, Texas -75248, United States
+        Preston Road, Suite #106, Dallas, Texas -75248, United States`}
       </div>
       <div>
-        15. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?
+        {`  15. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?
         Based on the applicable laws of your country, you may have the right to
         request access to the personal information we collect from you, change
         that information, or delete it in some circumstances. To request to
         review, update, or delete your personal information, please submit a
         request form by clicking here. We will respond to your request within 30
-        days.
+        days.`}
       </div>
     </div>
   );

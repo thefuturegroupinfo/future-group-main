@@ -9,11 +9,11 @@ function aboutus() {
           About Us
         </div>
         <div className='max-w-5xl mx-auto text-center py-14 text-gray-900'>
-          We don't only invest in real estate. We make investments in the
+          {` We don't only invest in real estate. We make investments in the
           communities we engage in. We are confident in our capacity to provide
           you with excellent service because of our fundamental principles, high
           standards, and well-respected competence. In an environment of rapid
-          change, we offer stability & consistency.
+          change, we offer stability & consistency.`}
         </div>
         <div className='text-primary  text-5xl font-bold text-center font-roboto'>
           Meet our CEO

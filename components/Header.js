@@ -7,7 +7,7 @@ function Header() {
   return (
     <>
       <div className='flex h-20 justify-between items-center md:mx-10 mx-5'>
-        <div className='relative h-20 w-52 cursor-pointer'>
+        <div className='relative md:h-20 md:w-52 h-16 w-44 cursor-pointer'>
           <Link href='/'>
             <Image src='/static/images/logo.jpg' layout='fill' alt='Logo' />
           </Link>

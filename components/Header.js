@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 function Header() {
@@ -8,10 +9,26 @@ function Header() {
         {/* <Image src='/static/images/logo.png' height='70px' width='200px' /> */}
       </div>
       <div className='flex space-x-6 text-primary font-semibold'>
-        <div>Home</div>
-        <div>About us</div>
-        <div>FAQs</div>
-        <div>Blog</div>
+        <div>
+          <Link href='/'>
+            <a>Home</a>
+          </Link>
+        </div>
+        <div>
+          <Link href='/aboutus'>
+            <a>About us</a>
+          </Link>
+        </div>
+        <div>
+          <Link href='/faq'>
+            <a>FAQs</a>
+          </Link>
+        </div>
+        <div>
+          <Link href='/blog'>
+            <a>Blog</a>
+          </Link>
+        </div>
       </div>
     </div>
   );

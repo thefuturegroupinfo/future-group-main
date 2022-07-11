@@ -15,9 +15,6 @@ export default function Home() {
       </Head>
 
       <main>
-        <div className='max-w-7xl mx-auto'>
-          <Header />
-        </div>
         <div className='main-hero-bg '>
           <div className='max-w-7xl mx-auto'>
             <Hero />

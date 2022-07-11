@@ -33,7 +33,7 @@ function Footer() {
       <div className='max-w-7xl mx-auto flex flex-col md:flex-row justify-between py-10 px-5'>
         <div>
           <Image
-            src='/static/images/logo.png'
+            src='/static/images/logo.jpg'
             alt='logo'
             height='62px'
             width='180px'

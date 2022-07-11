@@ -7,8 +7,10 @@ function Header() {
   return (
     <>
       <div className='flex h-20 justify-between items-center md:mx-10 mx-5'>
-        <div className='relative h-20 w-52'>
-          <Image src='/static/images/logo.jpg' layout='fill' alt='Logo' />
+        <div className='relative h-20 w-52 cursor-pointer'>
+          <Link href='/'>
+            <Image src='/static/images/logo.jpg' layout='fill' alt='Logo' />
+          </Link>
         </div>
         <div className=' space-x-6 text-primary font-semibold hidden md:flex'>
           <div>

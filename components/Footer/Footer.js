@@ -18,14 +18,25 @@ function Footer() {
             </p>
 
             <div className='flex items-center h-10 mx-5 md:mx-0  '>
-              <input
-                type='text'
-                className='py-2 rounded-l-lg px-5 w-full text-black'
-                placeholder='Your Email Here '
-              />
-              <button className='py-2 bg-black text-white px-5 rounded-r-lg '>
-                Subscribe
-              </button>
+              <form
+                name='contact'
+                method='POST'
+                data-netlify='true'
+                className='flex items-center'
+              >
+                <input
+                  type='email'
+                  name='email'
+                  className='py-2 rounded-l-lg px-5 w-full text-black'
+                  placeholder='Your Email Here '
+                />
+                <button
+                  type='submit'
+                  className='py-2 bg-black text-white px-5 rounded-r-lg '
+                >
+                  Subscribe
+                </button>
+              </form>
             </div>
           </div>
         </div>
@@ -38,7 +49,7 @@ function Footer() {
             height='62px'
             width='180px'
           />
-          <div className='md:w-72 w-full pt-5 text-left'>
+          <div className='md:w-72 w-full pt-5 text-left text-gray-800'>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum
             blanditiis quo esse vel quia, illo, dolorem quas neque fuga
             laboriosam voluptatibus quos minima a. Dolor, rem autem voluptatum
@@ -79,15 +90,22 @@ function Footer() {
             16135 Preston Rd Suite #106 <br /> Dallas, TX 75248
           </div>
           <div>
-            <span className='font-bold'>Phone:</span> 000-000-0000
+            <span className='font-bold'>Phone:</span>
+            <a href='tel:214-300-9874'></a> 214-300-9874
           </div>
           <div>
-            <span className='font-bold'> Email:</span> thefuturegpinfo@gmail.com
+            <span className='font-bold'> Email:</span>
+            <a href='mailto:thefuturegpinfo@gmail.com'>
+              thefuturegpinfo@gmail.com
+            </a>
           </div>
           <div>
             <span className='font-bold'> Website:</span> thefuturegp.com
           </div>
         </div>
+      </div>
+      <div className='uppercase bg-[#AD791C] text-sm text-center text-white'>
+        Wesbite design by tridhee pvt ltd
       </div>
     </>
   );

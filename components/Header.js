@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
+import Logo from './Icons/Logo';
 
 function Header() {
   const [menu, setMenu] = useState();
@@ -9,7 +10,17 @@ function Header() {
       <div className='flex h-20 justify-between items-center md:mx-10 mx-5'>
         <div className='relative md:h-20 md:w-52 h-16 w-44 cursor-pointer'>
           <Link href='/'>
-            <Image src='/static/images/logo.jpg' layout='fill' alt='Logo' />
+            <div className='flex items-center  space-x-4 sm:mt-2'>
+              <div>
+                <Logo />
+              </div>
+              <div className='font-mont font-bold text-gray-800  '>
+                <div>
+                  The <span className='text-primary'> Future </span>
+                </div>
+                <div>Group</div>
+              </div>
+            </div>
           </Link>
         </div>
         <div className=' space-x-6 text-primary font-semibold hidden md:flex'>
@@ -30,7 +41,7 @@ function Header() {
           </div>
           <div>
             <Link href='/blog'>
-              <a>Blog</a>
+              <a>Resources</a>
             </Link>
           </div>
         </div>

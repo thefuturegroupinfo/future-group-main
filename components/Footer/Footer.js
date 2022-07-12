@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import Logo from '../Icons/Logo';
 
 function Footer() {
   return (
@@ -43,12 +44,17 @@ function Footer() {
       </div>
       <div className='max-w-7xl mx-auto flex flex-col md:flex-row justify-between py-10 px-5'>
         <div>
-          <Image
-            src='/static/images/logo.jpg'
-            alt='logo'
-            height='62px'
-            width='180px'
-          />
+          <div className='flex items-center  space-x-4 sm:mt-2'>
+            <div>
+              <Logo />
+            </div>
+            <div className='font-mont font-bold text-gray-800  '>
+              <div>
+                The <span className='text-primary'> Future </span>
+              </div>
+              <div>Group</div>
+            </div>
+          </div>
           <div className='md:w-72 w-full pt-5 text-left text-gray-800'>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum
             blanditiis quo esse vel quia, illo, dolorem quas neque fuga
@@ -105,7 +111,7 @@ function Footer() {
         </div>
       </div>
       <div className='uppercase bg-[#AD791C] text-sm text-center text-white'>
-        Wesbite design by tridhee pvt ltd
+        Website designed and developed by Tridhee Technology Pvt Ltd
       </div>
     </>
   );

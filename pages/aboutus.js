@@ -1,7 +1,8 @@
+import Image from 'next/image';
 import React from 'react';
 import Icons from '../components/Icons/Icons';
 
-function aboutus() {
+function index() {
   return (
     <div>
       <div className='pt-10'>
@@ -28,7 +29,14 @@ function aboutus() {
             sapiente exercitationem iusto. Doloribus.
           </div>
           <div className='w-1/2 flex  flex-col items-center justify-center py-4'>
-            <div className='bg-gray-100 w-52 h-52 rounded-full'></div>
+            <div className='bg-gray-100 w-64 h-64 rounded-full relative overflow-hidden'>
+              <Image
+                src='/static/images/ceo.jpg'
+                alt='ceo'
+                layout='fill'
+                className='object-cover object-left-right'
+              />
+            </div>
             <div className='py-5 text-2xl font-bold text-gray-900 font-roboto'>
               Vijaybhai Patel
             </div>
@@ -55,4 +63,4 @@ function aboutus() {
   );
 }
 
-export default aboutus;
+export default index;

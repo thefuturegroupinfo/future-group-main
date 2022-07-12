@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 function Hero() {
@@ -18,9 +19,14 @@ function Hero() {
           {`While you enjoy living the life you've always wanted, we'll take care
           of the job.`}
         </p>
-        <button className='bg-[#AD791C] py-2 px-2 rounded-md shadow-xl mt-5'>
+        <a
+          href='https://docs.google.com/forms/d/e/1FAIpQLSe67TpJXN7l2jFszUBzgpcQRg9DCU5Sn2gvJcW4QYJ48tFUjw/viewform'
+          target='_blank'
+          rel='noreferrer'
+          className='bg-[#AD791C] py-2 px-2 rounded-md shadow-xl mt-5 inline-block '
+        >
           More Details
-        </button>
+        </a>
       </div>
     </div>
   );

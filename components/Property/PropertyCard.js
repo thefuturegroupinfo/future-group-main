@@ -20,20 +20,26 @@ function PropertyCard({ image, title, text }) {
           </div>
           <div className='z-10     rounded-full text-white self-center justify-end  mb-10'>
             <button className='flex  items-center justify-center bg-[#AD791C] h-14 w-14 rounded-full cursor-pointer us'>
-              <svg
-                xmlns='http://www.w3.org/2000/svg'
-                className='h-6 w-6'
-                fill='none'
-                viewBox='0 0 24 24'
-                stroke='currentColor'
-                strokeWidth={2}
+              <a
+                href='https://docs.google.com/forms/d/e/1FAIpQLSe67TpJXN7l2jFszUBzgpcQRg9DCU5Sn2gvJcW4QYJ48tFUjw/viewform'
+                target='_blank'
+                rel='noreferrer'
               >
-                <path
-                  strokeLinecap='round'
-                  strokeLinejoin='round'
-                  d='M14 5l7 7m0 0l-7 7m7-7H3'
-                />
-              </svg>
+                <svg
+                  xmlns='http://www.w3.org/2000/svg'
+                  className='h-6 w-6'
+                  fill='none'
+                  viewBox='0 0 24 24'
+                  stroke='currentColor'
+                  strokeWidth={2}
+                >
+                  <path
+                    strokeLinecap='round'
+                    strokeLinejoin='round'
+                    d='M14 5l7 7m0 0l-7 7m7-7H3'
+                  />
+                </svg>
+              </a>
             </button>
           </div>
         </div>

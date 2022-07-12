@@ -1,14 +1,18 @@
+import Image from 'next/image';
 import React from 'react';
 
 function index() {
   return (
     <div className='max-w-6xl mx-auto'>
       <div className='section-title text-center'>Resources</div>
-      <h5 className='text-center font-roboto pt-5 text-gray-800 px-5'>
+      <h5 className='text-center font-roboto pt-5 pb-5 text-gray-800 px-5'>
         Best books to understand and learn about Real estate investment for
         beginners
       </h5>
 
+      <div className='relative h-72 md:h-96 lg:h-[700px] py-7'>
+        <Image src='/static/images/blog.png' alt='bolog' layout='fill' />
+      </div>
       <p className='text-gray-800 py-8 px-5 text-center'>
         Do you want to increase your wealth, generate passive income, and
         diversify your investments? Well, purchasing real estate could be a

@@ -7,7 +7,143 @@ function Footer() {
   return (
     <>
       <div className='max-w-7xl mx-auto relative  overflow-hidden flex flex-col md:flex-row  justify-between items-center h-full w-full '>
-        <div className='w-full hidden md:block'>as</div>
+        <div className='w-full hidden md:block'>
+          <svg
+            xmlns='http://www.w3.org/2000/svg'
+            width='435'
+            height='320'
+            fill='none'
+            viewBox='0 0 435 320'
+          >
+            <g filter='url(#a)'>
+              <path
+                fill='#AD791C'
+                d='m183.221 5 236.334 178.22-178.22 236.334L5.001 241.334z'
+              />
+            </g>
+            <defs>
+              <filter
+                id='a'
+                width='434.554'
+                height='434.554'
+                x='0'
+                y='0'
+                colorInterpolationFilters='sRGB'
+                filterUnits='userSpaceOnUse'
+              >
+                <feFlood floodOpacity='0' result='BackgroundImageFix' />
+                <feColorMatrix
+                  in='SourceAlpha'
+                  result='hardAlpha'
+                  values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0'
+                />
+                <feOffset dx='5' dy='5' />
+                <feGaussianBlur stdDeviation='5' />
+                <feComposite in2='hardAlpha' operator='out' />
+                <feColorMatrix values='0 0 0 0 0.0862745 0 0 0 0 0.105882 0 0 0 0 0.113725 0 0 0 0.23 0' />
+                <feBlend
+                  in2='BackgroundImageFix'
+                  result='effect1_dropShadow_116_197'
+                />
+                <feBlend
+                  in='SourceGraphic'
+                  in2='effect1_dropShadow_116_197'
+                  result='shape'
+                />
+              </filter>
+            </defs>
+          </svg>
+          <svg
+            xmlns='http://www.w3.org/2000/svg'
+            width='388'
+            height='274'
+            fill='none'
+            viewBox='0 0 388 274'
+          >
+            <g filter='url(#a)'>
+              <path
+                fill='#AD791C'
+                d='m87.915-109 284.15 82.914-82.914 284.15L5.001 175.15z'
+              />
+            </g>
+            <defs>
+              <filter
+                id='a'
+                width='387.065'
+                height='387.065'
+                x='0'
+                y='-114'
+                colorInterpolationFilters='sRGB'
+                filterUnits='userSpaceOnUse'
+              >
+                <feFlood floodOpacity='0' result='BackgroundImageFix' />
+                <feColorMatrix
+                  in='SourceAlpha'
+                  result='hardAlpha'
+                  values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0'
+                />
+                <feOffset dx='5' dy='5' />
+                <feGaussianBlur stdDeviation='5' />
+                <feComposite in2='hardAlpha' operator='out' />
+                <feColorMatrix values='0 0 0 0 0.0862745 0 0 0 0 0.105882 0 0 0 0 0.113725 0 0 0 0.23 0' />
+                <feBlend
+                  in2='BackgroundImageFix'
+                  result='effect1_dropShadow_116_198'
+                />
+                <feBlend
+                  in='SourceGraphic'
+                  in2='effect1_dropShadow_116_198'
+                  result='shape'
+                />
+              </filter>
+            </defs>
+          </svg>
+          <svg
+            xmlns='http://www.w3.org/2000/svg'
+            width='435'
+            height='320'
+            fill='none'
+            viewBox='0 0 435 320'
+          >
+            <g filter='url(#a)'>
+              <path
+                fill='#AD791C'
+                d='m183.221 5 236.334 178.22-178.22 236.334L5.001 241.334z'
+              />
+            </g>
+            <defs>
+              <filter
+                id='a'
+                width='434.554'
+                height='434.554'
+                x='0'
+                y='0'
+                colorInterpolationFilters='sRGB'
+                filterUnits='userSpaceOnUse'
+              >
+                <feFlood floodOpacity='0' result='BackgroundImageFix' />
+                <feColorMatrix
+                  in='SourceAlpha'
+                  result='hardAlpha'
+                  values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0'
+                />
+                <feOffset dx='5' dy='5' />
+                <feGaussianBlur stdDeviation='5' />
+                <feComposite in2='hardAlpha' operator='out' />
+                <feColorMatrix values='0 0 0 0 0.0862745 0 0 0 0 0.105882 0 0 0 0 0.113725 0 0 0 0.23 0' />
+                <feBlend
+                  in2='BackgroundImageFix'
+                  result='effect1_dropShadow_116_197'
+                />
+                <feBlend
+                  in='SourceGraphic'
+                  in2='effect1_dropShadow_116_197'
+                  result='shape'
+                />
+              </filter>
+            </defs>
+          </svg>
+        </div>
         <div className='md:w-1/2 space-y-3 text-white  flex flex-col h-full items-center '>
           <div className='flex flex-col items-center justify-center h-full  space-y-5'>
             <div className='capitalize text-3xl text-roboto font-bold text-center md:text-left'>
@@ -55,14 +191,14 @@ function Footer() {
               <div>Group</div>
             </div>
           </div>
-          <div className='md:w-72 w-full pt-5 text-left text-gray-800'>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum
-            blanditiis quo esse vel quia, illo, dolorem quas neque fuga
-            laboriosam voluptatibus quos minima a. Dolor, rem autem voluptatum
-            voluptatem non eligendi doloremque aperiam suscipit sed cupiditate
+          <div className='md:w-[400px] w-full pt-5 text-justify text-gray-800'>
+            The Future Group is founded with the vision of investing in real
+            estate to accommodate the future! Targeting upcoming designs and
+            areas to support future needs and do value addition to boost the
+            revenue and increase profit.
           </div>
         </div>
-        <div className='py-4 space-y-5 text-gray-800'>
+        <div className='py-4 space-y-5 text-gray-800 md:w-64'>
           <div className='font-bold '>Useful Links</div>
           <div>
             <Link href='/'>
@@ -90,7 +226,7 @@ function Footer() {
             </Link>
           </div>
         </div>
-        <div className='py-4 space-y-5 text-gray-800'>
+        <div className='py-4 space-y-5 text-gray-800 md:w-64'>
           <div className='font-bold '>Contact Info</div>
           <div>
             16135 Preston Rd Suite #106 <br /> Dallas, TX 75248

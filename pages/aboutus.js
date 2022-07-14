@@ -9,7 +9,7 @@ function index() {
         <div className='text-primary text-3xl  md:text-5xl font-bold text-center font-roboto'>
           About Us
         </div>
-        <div className='max-w-7xl md:mx-auto text-center py-14 text-gray-900 mx-5 '>
+        <div className='max-w-4xl md:mx-auto text-center py-14 text-gray-900 mx-5 '>
           {` We don't only invest in real estate. We make investments in the
           communities we engage in. We are confident in our capacity to provide
           you with excellent service because of our fundamental principles, high
@@ -20,7 +20,7 @@ function index() {
           Meet our CEO
         </div>
         <div className='flex  flex-col-reverse md:flex-row max-w-7xl mx-auto text-center py-14 justify-between items-center'>
-          <div className='md:w-1/2 px-5 py-5 md:py-0 md:text-left text-center'>
+          <div className='md:w-1/2 px-5 py-5 md:py-0  text-justify'>
             Vijay Patel is a serial entrepreneur with a remarkable track record
             in the real estate, healthcare, jewelry, and diamond industries. He
             has a strong reputation in the DFW metroplex business community for

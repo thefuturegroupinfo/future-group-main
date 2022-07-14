@@ -40,7 +40,7 @@ function Header() {
             </Link>
           </div>
           <div>
-            <Link href='/blog'>
+            <Link href='/resources'>
               <a>Resources</a>
             </Link>
           </div>

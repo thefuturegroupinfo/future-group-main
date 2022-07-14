@@ -6,8 +6,8 @@ function index() {
     <div className='max-w-6xl mx-auto'>
       <div className='section-title text-center'>Resources</div>
       <h5 className='text-center font-roboto pt-5 pb-5 text-gray-800 px-5'>
-        Best books to understand and learn about Real estate investment for
-        beginners
+        <strong> Best books to understand</strong> and learn about Real estate
+        investment for beginners
       </h5>
 
       <div className='relative h-72 md:h-96 lg:h-[700px] py-7'>

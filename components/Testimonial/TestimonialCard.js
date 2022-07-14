@@ -6,14 +6,12 @@ function TestimonialCard({ title, text, image }) {
     <div className='w-72  px-2 text-center flex flex-col justify-end relative '>
       {/* card */}
       <div className=' relative w-28 h-28 flex justify-center  left-1/2 -translate-x-1/2 top-14 '>
-        <div>
+        <div className='relative w-28 h-28'>
           <Image
             src={image}
             alt='profile'
-            layout='intrinsic'
-            height='122px'
-            width='122px'
-            className='rounded-full object-cover object-right w-28 h-28 '
+            layout='fill'
+            className='rounded-full object-cover  w-28 h-28 '
           />
         </div>
       </div>

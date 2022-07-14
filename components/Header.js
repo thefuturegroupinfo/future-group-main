@@ -121,7 +121,7 @@ function Header() {
           </div>
           <div onClick={() => setMenu(false)}>
             <Link href='/resources'>
-              <a>resources</a>
+              <a>Resources</a>
             </Link>
           </div>
         </div>

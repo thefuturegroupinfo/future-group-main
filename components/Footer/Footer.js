@@ -211,8 +211,8 @@ function Footer() {
             </Link>
           </div>
           <div>
-            <Link href='/blog'>
-              <a>Blog</a>
+            <Link href='/resources'>
+              <a>resources</a>
             </Link>
           </div>
           <div>

@@ -120,8 +120,8 @@ function Header() {
             </Link>
           </div>
           <div onClick={() => setMenu(false)}>
-            <Link href='/blog'>
-              <a>Blog</a>
+            <Link href='/resources'>
+              <a>resources</a>
             </Link>
           </div>
         </div>

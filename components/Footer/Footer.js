@@ -145,22 +145,16 @@ function Footer() {
           </svg>
         </div>
         <div className='md:w-1/2 space-y-3 text-white  flex flex-col h-full items-center '>
-          <div className='flex flex-col items-center justify-center h-full  space-y-5'>
-            <div className='capitalize text-3xl text-roboto font-bold text-center md:text-left'>
+          <div className='flex flex-col  justify-center h-full  space-y-5 mx-10'>
+            <div className='capitalize text-3xl text-roboto font-bold '>
               Don’t miss a thing!
             </div>
-            <p className='mx-10'>
+            <p>
               Subscribe with Email and loads of interesting news will be sent to
               you.
             </p>
 
-            <div className='flex items-center h-10 mx-5 md:mx-0  '>
-              <input
-                type='email'
-                name='email'
-                className='py-2 rounded-l-lg px-5 w-full text-black'
-                placeholder='Your Email Here '
-              />
+            <div className='flex items-center h-10  md:mx-0 self-start  '>
               <a
                 href='https://docs.google.com/forms/d/e/1FAIpQLSe67TpJXN7l2jFszUBzgpcQRg9DCU5Sn2gvJcW4QYJ48tFUjw/viewform'
                 target='_blank'
@@ -168,7 +162,7 @@ function Footer() {
               >
                 <button
                   type='submit'
-                  className='py-2 bg-black text-white px-5 rounded-r-lg '
+                  className='py-2 bg-black text-white px-5 rounded-lg  '
                 >
                   Subscribe
                 </button>
@@ -211,7 +205,7 @@ function Footer() {
           </div>
           <div>
             <Link href='/resources'>
-              <a>resources</a>
+              <a>Resources</a>
             </Link>
           </div>
           <div>
@@ -235,7 +229,7 @@ function Footer() {
             <a href='tel:214-300-9874'></a> 214-300-9874
           </div>
           <div>
-            <span className='font-bold'> Email:</span>
+            <span className='font-bold'> Email: </span>
             <a href='mailto:thefuturegpinfo@gmail.com'>
               thefuturegpinfo@gmail.com
             </a>

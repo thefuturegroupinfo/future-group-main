@@ -8,9 +8,11 @@ function TestimonialCard({ title, text, image }) {
       <div className=' relative w-28 h-28 flex justify-center  left-1/2 -translate-x-1/2 top-14 '>
         <div>
           <Image
-            src={'https://picsum.photos/200'}
+            src={image}
             alt='profile'
-            layout='fill'
+            layout='intrinsic'
+            height='122px'
+            width='122px'
             className='rounded-full object-cover object-right w-28 h-28 '
           />
         </div>

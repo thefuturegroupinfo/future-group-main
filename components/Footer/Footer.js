@@ -155,25 +155,24 @@ function Footer() {
             </p>
 
             <div className='flex items-center h-10 mx-5 md:mx-0  '>
-              <form
-                name='contact'
-                method='POST'
-                data-netlify='true'
-                className='flex items-center'
+              <input
+                type='email'
+                name='email'
+                className='py-2 rounded-l-lg px-5 w-full text-black'
+                placeholder='Your Email Here '
+              />
+              <a
+                href='https://docs.google.com/forms/d/e/1FAIpQLSe67TpJXN7l2jFszUBzgpcQRg9DCU5Sn2gvJcW4QYJ48tFUjw/viewform'
+                target='_blank'
+                rel='noreferrer'
               >
-                <input
-                  type='email'
-                  name='email'
-                  className='py-2 rounded-l-lg px-5 w-full text-black'
-                  placeholder='Your Email Here '
-                />
                 <button
                   type='submit'
                   className='py-2 bg-black text-white px-5 rounded-r-lg '
                 >
                   Subscribe
                 </button>
-              </form>
+              </a>
             </div>
           </div>
         </div>

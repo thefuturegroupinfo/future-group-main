@@ -13,7 +13,7 @@ function index() {
       <div className='relative h-72 md:h-96 lg:h-[700px] py-7'>
         <Image src='/static/images/blog.png' alt='bolog' layout='fill' />
       </div>
-      <p className='text-gray-800 py-8 px-5 text-center'>
+      <p className='text-gray-800 py-8 px-5 text-justify'>
         Do you want to increase your wealth, generate passive income, and
         diversify your investments? Well, purchasing real estate could be a
         smart decision. However, it would be advantageous if you have the

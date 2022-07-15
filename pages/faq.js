@@ -14,7 +14,7 @@ function index() {
         />
         <Faq
           q='WHAT KIND OF RETURNS CAN INVESTORS EXPECT?'
-          a={`Real estate offers three basic sorts of returns: cash flow, principal reduction, and appreciation. Some investments provide a mix of the aforementioned benefits, although they all differ from one property to another. If you'd need more detailed information about total returns, please get in touch with us.`}
+          a={`Real estate offers three basic sorts of returns: cash flow, principal reduction (100-120% tax depreciation benefit of money invested), and appreciation. Some investments provide a mix of the aforementioned benefits, although they all differ from one property to another. If you'd need more detailed information about total returns, please get in touch with us.`}
         />
         <Faq
           q='WHAT IMPLICATIONS DO THESE HAVE FOR MY PERSONAL TAXES?'

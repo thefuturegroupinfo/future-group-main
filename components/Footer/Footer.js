@@ -7,142 +7,13 @@ function Footer() {
   return (
     <>
       <div className='max-w-7xl mx-auto relative  overflow-hidden flex flex-col md:flex-row  justify-between items-center h-full w-full '>
-        <div className='w-full hidden md:block'>
-          <svg
-            xmlns='http://www.w3.org/2000/svg'
-            width='435'
-            height='320'
-            fill='none'
-            viewBox='0 0 435 320'
-          >
-            <g filter='url(#a)'>
-              <path
-                fill='#AD791C'
-                d='m183.221 5 236.334 178.22-178.22 236.334L5.001 241.334z'
-              />
-            </g>
-            <defs>
-              <filter
-                id='a'
-                width='434.554'
-                height='434.554'
-                x='0'
-                y='0'
-                colorInterpolationFilters='sRGB'
-                filterUnits='userSpaceOnUse'
-              >
-                <feFlood floodOpacity='0' result='BackgroundImageFix' />
-                <feColorMatrix
-                  in='SourceAlpha'
-                  result='hardAlpha'
-                  values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0'
-                />
-                <feOffset dx='5' dy='5' />
-                <feGaussianBlur stdDeviation='5' />
-                <feComposite in2='hardAlpha' operator='out' />
-                <feColorMatrix values='0 0 0 0 0.0862745 0 0 0 0 0.105882 0 0 0 0 0.113725 0 0 0 0.23 0' />
-                <feBlend
-                  in2='BackgroundImageFix'
-                  result='effect1_dropShadow_116_197'
-                />
-                <feBlend
-                  in='SourceGraphic'
-                  in2='effect1_dropShadow_116_197'
-                  result='shape'
-                />
-              </filter>
-            </defs>
-          </svg>
-          <svg
-            xmlns='http://www.w3.org/2000/svg'
-            width='388'
-            height='274'
-            fill='none'
-            viewBox='0 0 388 274'
-          >
-            <g filter='url(#a)'>
-              <path
-                fill='#AD791C'
-                d='m87.915-109 284.15 82.914-82.914 284.15L5.001 175.15z'
-              />
-            </g>
-            <defs>
-              <filter
-                id='a'
-                width='387.065'
-                height='387.065'
-                x='0'
-                y='-114'
-                colorInterpolationFilters='sRGB'
-                filterUnits='userSpaceOnUse'
-              >
-                <feFlood floodOpacity='0' result='BackgroundImageFix' />
-                <feColorMatrix
-                  in='SourceAlpha'
-                  result='hardAlpha'
-                  values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0'
-                />
-                <feOffset dx='5' dy='5' />
-                <feGaussianBlur stdDeviation='5' />
-                <feComposite in2='hardAlpha' operator='out' />
-                <feColorMatrix values='0 0 0 0 0.0862745 0 0 0 0 0.105882 0 0 0 0 0.113725 0 0 0 0.23 0' />
-                <feBlend
-                  in2='BackgroundImageFix'
-                  result='effect1_dropShadow_116_198'
-                />
-                <feBlend
-                  in='SourceGraphic'
-                  in2='effect1_dropShadow_116_198'
-                  result='shape'
-                />
-              </filter>
-            </defs>
-          </svg>
-          <svg
-            xmlns='http://www.w3.org/2000/svg'
-            width='435'
-            height='320'
-            fill='none'
-            viewBox='0 0 435 320'
-          >
-            <g filter='url(#a)'>
-              <path
-                fill='#AD791C'
-                d='m183.221 5 236.334 178.22-178.22 236.334L5.001 241.334z'
-              />
-            </g>
-            <defs>
-              <filter
-                id='a'
-                width='434.554'
-                height='434.554'
-                x='0'
-                y='0'
-                colorInterpolationFilters='sRGB'
-                filterUnits='userSpaceOnUse'
-              >
-                <feFlood floodOpacity='0' result='BackgroundImageFix' />
-                <feColorMatrix
-                  in='SourceAlpha'
-                  result='hardAlpha'
-                  values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0'
-                />
-                <feOffset dx='5' dy='5' />
-                <feGaussianBlur stdDeviation='5' />
-                <feComposite in2='hardAlpha' operator='out' />
-                <feColorMatrix values='0 0 0 0 0.0862745 0 0 0 0 0.105882 0 0 0 0 0.113725 0 0 0 0.23 0' />
-                <feBlend
-                  in2='BackgroundImageFix'
-                  result='effect1_dropShadow_116_197'
-                />
-                <feBlend
-                  in='SourceGraphic'
-                  in2='effect1_dropShadow_116_197'
-                  result='shape'
-                />
-              </filter>
-            </defs>
-          </svg>
+        <div className='w-full hidden md:block relative '>
+          <Image
+            src='/static/images/book.jpg'
+            alt='fillasa'
+            height='300px'
+            width='200px'
+          />
         </div>
         <div className='md:w-1/2 space-y-3 text-white  flex flex-col h-full items-center '>
           <div className='flex flex-col  justify-center h-full  space-y-5 mx-10'>
@@ -151,7 +22,7 @@ function Footer() {
             </div>
             <p>
               Subscribe with Email and loads of interesting news will be sent to
-              you.
+              you along with this Ebook
             </p>
 
             <div className='flex items-center h-10  md:mx-0 self-start  '>

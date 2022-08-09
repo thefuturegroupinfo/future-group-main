@@ -39,7 +39,7 @@ function Dail({ b, setB }) {
               </div>
               <div className='text-center text-lg pt-12 md:pt-0 md:text-3xl text-black capitalize '>
                 Man with a <span className='font-bold'> Mission</span> to get
-                out from the
+                you out from the
                 <span className='text-primary'> Rat Race!</span>
               </div>
               <div className=' mx-auto bg-[#f4f4f4] px-4 pt-4 pb-4 sm:p-4 sm:pb-4 md:w-auto text-black gap-10 md:flex  '>

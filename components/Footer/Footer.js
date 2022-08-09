@@ -7,12 +7,13 @@ function Footer() {
   return (
     <>
       <div className='max-w-7xl mx-auto relative  overflow-hidden flex flex-col md:flex-row  justify-between items-center h-full w-full '>
-        <div className='w-full hidden md:block relative '>
+        <div className='w-full hidden md:block relative z-50  '>
           <Image
-            src='/static/images/book.jpg'
+            src='/static/images/book.png'
             alt='fillasa'
-            height='300px'
-            width='200px'
+            height='420px'
+            width='420px'
+            className='relative z-20'
           />
         </div>
         <div className='md:w-1/2 space-y-3 text-white  flex flex-col h-full items-center '>

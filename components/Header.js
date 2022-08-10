@@ -44,6 +44,12 @@ function Header() {
               <a>Resources</a>
             </Link>
           </div>
+
+          <div>
+            <Link href='/ebook'>
+              <a>E-Book</a>
+            </Link>
+          </div>
         </div>
         <div
           className='md:hidden  cursor-pointer text-primary space-y-1'
@@ -122,6 +128,11 @@ function Header() {
           <div onClick={() => setMenu(false)}>
             <Link href='/resources'>
               <a>Resources</a>
+            </Link>
+          </div>
+          <div onClick={() => setMenu(false)}>
+            <Link href='/ebook'>
+              <a>E-Book</a>
             </Link>
           </div>
         </div>

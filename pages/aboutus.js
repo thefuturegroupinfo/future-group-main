@@ -48,7 +48,7 @@ function index() {
               />
             </div>
             <div className='py-5 text-2xl font-bold text-gray-900 font-roboto'>
-              Vijaybhai Patel
+              VJ Patel
             </div>
             <div>
               <div className='flex space-x-6 items-center'>

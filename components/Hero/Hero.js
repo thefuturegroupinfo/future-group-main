@@ -10,7 +10,7 @@ function Hero() {
           Best real estate deals
         </h1>
         <p className='md:text-base text-sm'>
-          Through our diversified investmnet strategies consisting Multi Family,
+          Through our diversified investment strategies consisting Multi Family,
           Senior Living and commercial real estate investment and syndication,
           we assist both seasoned and prospective investors in becoming
           financially independent.

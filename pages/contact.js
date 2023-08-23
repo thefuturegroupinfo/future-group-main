@@ -9,12 +9,26 @@ function index() {
         <div className='text-primary text-3xl  md:text-5xl font-bold text-center font-roboto'>
          Fill Out The Form
         </div>
-        <div className='max-w-4xl md:mx-auto text-center py-14 text-gray-900 mx-5 '>
-          {` We don't only invest in real estate. We make investments in the
-          communities we engage in. We are confident in our capacity to provide
-          you with excellent service because of our fundamental principles, high
-          standards, and well-respected competence. In an environment of rapid
-          change, we offer stability & consistency.`}
+        <div>
+              <iframe
+  src="https://api.leadconnectorhq.com/widget/form/cpFqhVMvdeoXtd2MxQjS"
+  style="width:100%;height:100%;border:none;border-radius:4px"
+  id="inline-cpFqhVMvdeoXtd2MxQjS" 
+  data-layout="{'id':'INLINE'}"
+  data-trigger-type="alwaysShow"
+  data-trigger-value=""
+  data-activation-type="alwaysActivated"
+  data-activation-value=""
+  data-deactivation-type="neverDeactivate"
+  data-deactivation-value=""
+  data-form-name="Form 1"
+  data-height="1498"
+  data-layout-iframe-id="inline-cpFqhVMvdeoXtd2MxQjS"
+  data-form-id="cpFqhVMvdeoXtd2MxQjS"
+  title="Form 1"
+      >
+</iframe>
+<script src="https://link.msgsndr.com/js/form_embed.js"></script>
         </div>
         <div className='text-primary text-3xl  md:text-5xl font-bold text-center font-roboto'>
           Meet our CEO

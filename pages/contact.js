@@ -31,7 +31,10 @@ function index() {
 </iframe>
 <script src="https://link.msgsndr.com/js/form_embed.js"></script>
         </div>
-        
+        <div className='pt-10'>
+        <div className='text-primary text-3xl  md:text-5xl font-bold text-center font-roboto'>
+         Found Us On
+        </div>
             <div>
               <div className='flex space-x-6 items-center'>
                 <div>

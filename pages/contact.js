@@ -7,7 +7,7 @@ function index() {
     <div>
       <div className='pt-10'>
         <div className='text-primary text-3xl  md:text-5xl font-bold text-center font-roboto'>
-            Fill Out The Form 
+            Fill Out The Form & get More Infornation
         </div>
         <div>
             <iframe

@@ -7,30 +7,10 @@ function index() {
     <div>
       <div className='pt-10'>
         <div className='text-primary text-3xl  md:text-5xl font-bold text-center font-roboto'>
-         Fill Out The Form
+         Fill Out The Form & Connect With Us
         </div>
-        <div>
-              <iframe
-  src="https://api.leadconnectorhq.com/widget/form/cpFqhVMvdeoXtd2MxQjS"
-  style="width:100%;height:100%;border:none;border-radius:4px"
-  id="inline-cpFqhVMvdeoXtd2MxQjS" 
-  data-layout="{'id':'INLINE'}"
-  data-trigger-type="alwaysShow"
-  
-  data-trigger-value=""
-  data-activation-type="alwaysActivated"
-  data-activation-value=""
-  data-deactivation-type="neverDeactivate"
-  data-deactivation-value=""
-  data-form-name="Form 1"
-  data-height="1498"
-  data-layout-iframe-id="inline-cpFqhVMvdeoXtd2MxQjS"
-  data-form-id="cpFqhVMvdeoXtd2MxQjS"
-  title="Form 1"
-      >
-</iframe>
-<script src="https://link.msgsndr.com/js/form_embed.js"></script>
-        </div>
+        
+    
         <div className='pt-10'>
         <div className='text-primary text-3xl  md:text-5xl font-bold text-center font-roboto'>
       Found Us On

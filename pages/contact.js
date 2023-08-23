@@ -16,6 +16,7 @@ function index() {
   id="inline-cpFqhVMvdeoXtd2MxQjS" 
   data-layout="{'id':'INLINE'}"
   data-trigger-type="alwaysShow"
+  
   data-trigger-value=""
   data-activation-type="alwaysActivated"
   data-activation-value=""
